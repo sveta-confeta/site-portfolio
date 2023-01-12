@@ -8,9 +8,12 @@
     text-decoration: none;
 
 }
+button:hover{
+    cursor: pointer;
+}
 
 body {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #121415;
     color: white;
     font-family: 'PT Sans Caption', sans-serif;
@@ -21,7 +24,7 @@ body {
     max-width: 1260px;
     background: linear-gradient(45deg, rgba(131, 147, 161, 0.09), rgba(20, 33, 66, 0.8)), url('../img/design/code.jpg');
     background-size: cover;
-    /*position: relative;*/
+    min-height: 100vh;
     height: 100%;
     padding: 0 50px;
     display: flex;

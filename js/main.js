@@ -317,7 +317,6 @@ function WorkSlider() {
     }
 
     function plusSlide(n) {
-        debugger
         showSliders(ind += n)
     }
 
@@ -402,6 +401,7 @@ hobbyButtonsMob.addEventListener('click', function () {
 const toggleMoblBtn = document.querySelector('.toggle-menu_wrapper');
 const menuIcon=document.querySelector('.menu-icon');
 const mobileHeader=document.querySelector('.mobile-header');
+const content=document.querySelector('.content');
 
 
 
@@ -410,4 +410,5 @@ toggleMoblBtn.addEventListener('click', function(){
     mobileHeader.classList.toggle('mobile-header_active');
 
 })
+
 
