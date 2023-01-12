@@ -167,6 +167,9 @@
     }
 }
 @media (max-width: 530px) {
+    .mobile-header{
+        justify-content: flex-start;
+    }
     .works-gallery {
         width: 400px;
     }
@@ -180,6 +183,12 @@
     }
     .main-block{
         padding: 20px 10px;
+    }
+    .main-block_about{
+        padding: 0 15px;
+    }
+    .main-block_contacts-list {
+        max-width: 200px;
     }
     .icons-list{
         padding-top: 20px;
