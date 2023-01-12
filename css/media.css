@@ -206,12 +206,11 @@
     .works-gallery_tool-tip {
         left: 6%;
         white-space: normal;
-        opacity: 1;
     }
 }
 @media (max-width: 370px) {
     .works-gallery_tool-tip {
         left: 3%;
-        opacity: 1;
+
     }
 }
