@@ -169,6 +169,7 @@
 @media (max-width: 530px) {
     .mobile-header{
         justify-content: flex-start;
+        padding: 40px 20px 20px;
     }
     .works-gallery {
         width: 400px;

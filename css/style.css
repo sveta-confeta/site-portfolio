@@ -207,8 +207,7 @@ body {
 
 
 .main-block {
-    background-color: #23272a;
-    opacity: 0.8;
+    background-color: rgba(35, 39, 42, 0.79);
     width: 800px;
     min-height: 600px;
     padding: 40px;
@@ -294,6 +293,7 @@ ul.main-block_list {
 }
 
 .icons-list li {
+    background-color: rgb(35, 39, 42);
     display: flex;
     align-items: center;
     padding: 20px;
