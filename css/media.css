@@ -1,0 +1,113 @@
+@media (max-width:1178px) {
+    .header_name {
+        margin: 0 20px 15px 0;
+    }
+    .icons-list {
+     justify-content: center;
+    }
+    .icons-list li {
+        width: 150px;
+        height: 80px;
+        font-size: 14px;
+        padding: 10px;
+    }
+    .icons-list_img{
+        width: 40px;
+        height: auto;
+        margin-right:10px;
+        left: 10px;
+    }
+    .icons-list_front span {
+        top: 2%;
+        left: 2%;
+    }
+    .icons-list_back p{
+        transform: translateY(0);
+        font-size: 13px;
+
+    }
+}
+
+@media (max-width:1050px) {
+    .main-block_wrapper {
+        margin-bottom: 0;
+
+    }
+    .main-block {
+        padding: 25px;
+        min-height: 500px;
+    }
+    .main-block_education,
+    .main-block_contacts{
+        margin-left: 20px;
+    }
+    .works-gallery {
+        width: 450px;
+    }
+
+    .works-gallery_tool-tip {
+        left: 13%;
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .project-img {
+        height: 300px;
+
+    }
+
+    .project-img li img {
+        height: 280px;
+    }
+    .prev,
+    .next {
+        height: 30px;
+        width: 80px;
+    }
+}
+@media (max-width:970px){
+    .content{
+        justify-content: center;
+    }
+    .header{
+        display: none;
+    }
+    .mobile-header{
+        position: fixed;
+        transform: translateX(-600px);
+        transition: 1s ;
+        max-width: 300px;
+        height: 100vh;
+        padding: 20px;
+        background-image:  linear-gradient(45deg, rgba(131, 147, 161, 0.09), rgba(31, 37, 54, 0.8)), url('../img/design/code.jpg');
+        background-repeat: no-repeat;
+        background-color: #104d47;
+        background-position: left 0 top 0;
+        background-size:cover ;
+        top:0;
+        left:0;
+        z-index: 10;
+        border-right: 2px solid rgba(255, 255, 255, 0.29);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .mobile-header_active{
+        transform: translateX(0%);
+    }
+    .toggle-menu{
+        display: block;
+    }
+
+    .mobile-header_name{
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-size: 50px;
+        letter-spacing: 1px;
+        margin: 0 0 15px 0;
+
+    }
+    .mobile-header_title {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+}
