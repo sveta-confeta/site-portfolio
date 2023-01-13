@@ -10,9 +10,8 @@ let hobbyButtonsMob = document.getElementById('hobby');
 
 
 const toggleMoblBtn = document.querySelector('.toggle-menu_wrapper');
-const menuIcon=document.querySelector('.menu-icon');
-const mobileHeader=document.querySelector('.mobile-header');
-
+const menuIcon = document.querySelector('.menu-icon');
+const mobileHeader = document.querySelector('.mobile-header');
 
 
 let main = document.getElementById('main');
@@ -95,15 +94,15 @@ let aboutContent = " <div class=\"main-block_wrapper\">\n" +
     "                    <path d=\"M14.608 12.172c0 .84.239 1.175.864 1.175 1.393 0 2.28-1.775 2.28-4.727 0-4.512-3.288-6.672-7.393-6.672-4.223 0-8.064 2.832-8.064 8.184 0 5.112 3.36 7.896 8.52 7.896 1.752 0 2.928-.192 4.727-.792l.386 1.607c-1.776.577-3.674.744-5.137.744-6.768 0-10.393-3.72-10.393-9.456 0-5.784 4.201-9.72 9.985-9.72 6.024 0 9.215 3.6 9.215 8.016 0 3.744-1.175 6.6-4.871 6.6-1.681 0-2.784-.672-2.928-2.161-.432 1.656-1.584 2.161-3.145 2.161-2.088 0-3.84-1.609-3.84-4.848 0-3.264 1.537-5.28 4.297-5.28 1.464 0 2.376.576 2.782 1.488l.697-1.272h2.016v7.057h.002zm-2.951-3.168c0-1.319-.985-1.872-1.801-1.872-.888\n" +
     "    0-1.871.719-1.871 2.832 0 1.68.744 2.616 1.871 2.616.792 0 1.801-.504 1.801-1.896v-1.68z\"/></svg></a></li>\n" +
     "<li>\n" +
-"    <a href=\"https://t.me/SvetlanaShuncova\" target=\"_blank\">\n" +
+    "    <a href=\"https://t.me/SvetlanaShuncova\" target=\"_blank\">\n" +
     "   <svg class=\"tg\" width=\"40px\" height=\"40px\" viewBox=\"0 0 24 24\" fill=\"none\"\n" +
-                "          xmlns=\"http://www.w3.org/2000/svg\">\n" +
-                "   <path fill-rule=\"evenodd\" clip-rule=\"evenodd\"\n" +
-               "       d=\"M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM12.3583 9.38244C11.3857 9.787 9.44177 10.6243 6.52657 11.8944C6.05318 12.0827 5.8052 12.2669 5.78263 12.4469C5.74448 12.7513 6.12559 12.8711 6.64455 13.0343C6.71515 13.0565 6.78829 13.0795 6.86327 13.1038C7.37385 13.2698 8.06068 13.464 8.41773 13.4717C8.74161 13.4787 9.1031 13.3452 9.50219 13.0711C12.226 11.2325 13.632 10.3032 13.7202 10.2831C13.7825 10.269 13.8688 10.2512 13.9273 10.3032C13.9858 10.3552 13.98 10.4536 13.9738 10.48C13.9361 10.641 12.4401 12.0318 11.6659 12.7515C11.4246 12.9759 11.2534 13.135 11.2184 13.1714C11.14 13.2528 11.0601 13.3298 10.9833 13.4038C10.509 13.8611 10.1532 14.204 11.003 14.764C11.4114 15.0331 11.7381 15.2556 12.0641 15.4776C12.4201 15.7201 12.7752 15.9619 13.2347 16.2631C13.3517 16.3398 13.4635 16.4195 13.5724 16.4971C13.9867 16.7925 14.3589 17.0579 14.8188 17.0155C15.086 16.991 15.362 16.7397 15.5022 15.9903C15.8335 14.2193 16.4847 10.382 16.6352 8.80081C16.6484 8.66228 16.6318 8.48498 16.6185 8.40715C16.6051 8.32932 16.5773 8.21842 16.4761 8.13633C16.3563 8.03911 16.1714 8.01861 16.0886 8.02C15.7125 8.0267 15.1354 8.22735 12.3583 9.38244Z\"\n" +
-"         fill=\"#ffffff\"/>\n" +
-"      </svg>\n" +
-"     </a>\n" +
-"   </li>\n" +
+    "          xmlns=\"http://www.w3.org/2000/svg\">\n" +
+    "   <path fill-rule=\"evenodd\" clip-rule=\"evenodd\"\n" +
+    "       d=\"M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM12.3583 9.38244C11.3857 9.787 9.44177 10.6243 6.52657 11.8944C6.05318 12.0827 5.8052 12.2669 5.78263 12.4469C5.74448 12.7513 6.12559 12.8711 6.64455 13.0343C6.71515 13.0565 6.78829 13.0795 6.86327 13.1038C7.37385 13.2698 8.06068 13.464 8.41773 13.4717C8.74161 13.4787 9.1031 13.3452 9.50219 13.0711C12.226 11.2325 13.632 10.3032 13.7202 10.2831C13.7825 10.269 13.8688 10.2512 13.9273 10.3032C13.9858 10.3552 13.98 10.4536 13.9738 10.48C13.9361 10.641 12.4401 12.0318 11.6659 12.7515C11.4246 12.9759 11.2534 13.135 11.2184 13.1714C11.14 13.2528 11.0601 13.3298 10.9833 13.4038C10.509 13.8611 10.1532 14.204 11.003 14.764C11.4114 15.0331 11.7381 15.2556 12.0641 15.4776C12.4201 15.7201 12.7752 15.9619 13.2347 16.2631C13.3517 16.3398 13.4635 16.4195 13.5724 16.4971C13.9867 16.7925 14.3589 17.0579 14.8188 17.0155C15.086 16.991 15.362 16.7397 15.5022 15.9903C15.8335 14.2193 16.4847 10.382 16.6352 8.80081C16.6484 8.66228 16.6318 8.48498 16.6185 8.40715C16.6051 8.32932 16.5773 8.21842 16.4761 8.13633C16.3563 8.03911 16.1714 8.01861 16.0886 8.02C15.7125 8.0267 15.1354 8.22735 12.3583 9.38244Z\"\n" +
+    "         fill=\"#ffffff\"/>\n" +
+    "      </svg>\n" +
+    "     </a>\n" +
+    "   </li>\n" +
     "            </ul>\n" +
     "\n" +
     "        </div> ";
@@ -224,65 +223,14 @@ const workContent = "<div class=\"works-gallery\">\n" +
     "                <li><a href=\"https://sveta-confeta.github.io/educational-project/\" target=\"_blank\"><img class=\"project-img_img\"  src=\"./img/content/imgWorks/learnCard.jpg\" alt=\"обложка сайта с тодолистами\"></a></li>\n" +
     "                <li><a href=\"https://sveta-confeta.github.io/sellers-hab/\" target=\"_blank\"><img class=\"project-img_img\"  src=\"./img/content/imgWorks/seller.jpg\" alt=\"обложка лендинга\"></a></li>\n" +
     "                <li><a href=\"https://sveta-confeta.github.io/Scandi/\" target=\"_blank\"><img class=\"project-img_img\" src=\"./img/content/imgWorks/scandi.jpg\" alt=\"обложка лендинга\"></a></li>\n" +
-     "                <li><a href=\"https://simple-notes-app-pearl.vercel.app/\" target=\"_blank\"><img class=\"project-img_img\"  src=\"./img/content/imgWorks/notes.jpg\" alt=\"обложка сайта заметок\"></a></li>\n" +
+    "                <li><a href=\"https://simple-notes-app-pearl.vercel.app/\" target=\"_blank\"><img class=\"project-img_img\"  src=\"./img/content/imgWorks/notes.jpg\" alt=\"обложка сайта заметок\"></a></li>\n" +
     "            </ul>\n" +
     "            <div class=\"tabs\">\n" +
     "                <button type=\"button\" class=\"prev  disabled\">prev</button>\n" +
     "                <button type=\"button\" class=\"next\">next</button>\n" +
     "            </div>\n" +
     "        </div>"
-// const mobileHeaderContent=" <header class=\"mobile-header \">\n" +
-//     "            <h1 class=\"mobile-header_name\">Shunkova <br/>Svetlana</h1>\n" +
-//     "            <h2 class=\"mobile-header_title\"> Frontend-developer</h2>\n" +
-//     "            <nav>\n" +
-//     "                <ul class=\"header_list\">\n" +
-//     "                    <li>\n" +
-//     "                        <button class=\"button  active\"  id=\"about\">\n" +
-//     "                            <div class=\"bottom\">About me</div>\n" +
-//     "                            <div class=\"top\">\n" +
-//     "                                <div class=\"button-border button-border-left\"></div>\n" +
-//     "                                <div class=\"button-border button-border-top\"></div>\n" +
-//     "                                <div class=\"button-border button-border-right\"></div>\n" +
-//     "                                <div class=\"button-border button-border-bottom\"></div>\n" +
-//     "                            </div>\n" +
-//     "                        </button>\n" +
-//     "                    </li>\n" +
-//     "                    <li>\n" +
-//     "                        <button class=\"button skills\" id=\"skills\">\n" +
-//     "                            <div class=\"bottom\">Мy skills</div>\n" +
-//     "                            <div class=\"top\">\n" +
-//     "                                <div class=\"button-border button-border-left\"></div>\n" +
-//     "                                <div class=\"button-border button-border-top\"></div>\n" +
-//     "                                <div class=\"button-border button-border-right\"></div>\n" +
-//     "                                <div class=\"button-border button-border-bottom\"></div>\n" +
-//     "                            </div>\n" +
-//     "                        </button>\n" +
-//     "                    </li>\n" +
-//     "                    <li>\n" +
-//     "                        <button class=\"button works\" id=\"works\">\n" +
-//     "                            <div class=\"bottom\">Мy projects</div>\n" +
-//     "                            <div class=\"top\">\n" +
-//     "                                <div class=\"button-border button-border-left\"></div>\n" +
-//     "                                <div class=\"button-border button-border-top\"></div>\n" +
-//     "                                <div class=\"button-border button-border-right\"></div>\n" +
-//     "                                <div class=\"button-border button-border-bottom\"></div>\n" +
-//     "                            </div>\n" +
-//     "                        </button>\n" +
-//     "                    </li>\n" +
-//     "                    <li>\n" +
-//     "                        <button class=\"button hobby\" id=\"hobby\">\n" +
-//     "                            <div class=\"bottom\">Мy hobby</div>\n" +
-//     "                            <div class=\"top\">\n" +
-//     "                                <div class=\"button-border button-border-left\"></div>\n" +
-//     "                                <div class=\"button-border button-border-top\"></div>\n" +
-//     "                                <div class=\"button-border button-border-right\"></div>\n" +
-//     "                                <div class=\"button-border button-border-bottom\"></div>\n" +
-//     "                            </div>\n" +
-//     "                        </button>\n" +
-//     "                    </li>\n" +
-//     "                </ul>\n" +
-//     "            </nav>\n" +
-//     "        </header>";
+
 let addSliderListner = () => {
     const slides = document.querySelectorAll('.slide');
     for (const slide of slides) {
@@ -408,10 +356,7 @@ hobbyButtonsMob.addEventListener('click', function () {
 })
 
 
-
-
-
-toggleMoblBtn.addEventListener('click', function(){
+toggleMoblBtn.addEventListener('click', function () {
     menuIcon.classList.toggle('menu-icon-active');
     mobileHeader.classList.toggle('mobile-header_active');
 
