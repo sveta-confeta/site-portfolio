@@ -9,6 +9,12 @@ let worksButtonsMob = document.getElementById('works');
 let hobbyButtonsMob = document.getElementById('hobby');
 
 
+const toggleMoblBtn = document.querySelector('.toggle-menu_wrapper');
+const menuIcon=document.querySelector('.menu-icon');
+const mobileHeader=document.querySelector('.mobile-header');
+
+
+
 let main = document.getElementById('main');
 
 let aboutContent = " <div class=\"main-block_wrapper\">\n" +
@@ -381,27 +387,27 @@ skillsButtonMob.addEventListener('click', function () {
     toggleActiveMob(this)
     this.classList.add('active');
     main.innerHTML = skillsContent;
+    mobileHeader.classList.remove('mobile-header_active');
 })
 aboutButtonMob.addEventListener('click', function () {
     toggleActiveMob(this)
     main.innerHTML = aboutContent;
+    mobileHeader.classList.remove('mobile-header_active');
 })
 worksButtonsMob.addEventListener('click', function () {
     toggleActiveMob(this)
     main.innerHTML = workContent;
     WorkSlider();
+    mobileHeader.classList.remove('mobile-header_active');
 })
 hobbyButtonsMob.addEventListener('click', function () {
     toggleActiveMob(this)
     main.innerHTML = sliderMyFoto;
     addSliderListner();
+    mobileHeader.classList.remove('mobile-header_active');
 })
 
 
-const toggleMoblBtn = document.querySelector('.toggle-menu_wrapper');
-const menuIcon=document.querySelector('.menu-icon');
-const mobileHeader=document.querySelector('.mobile-header');
-const content=document.querySelector('.content');
 
 
 

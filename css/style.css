@@ -8,7 +8,8 @@
     text-decoration: none;
 
 }
-button:hover{
+
+button:hover {
     cursor: pointer;
 }
 
@@ -32,11 +33,12 @@ body {
     align-items: center;
 }
 
-.mobile-header{
-   display: none;
+.mobile-header {
+    display: none;
 }
-.toggle-menu{
-    cursor:pointer;
+
+.toggle-menu {
+    cursor: pointer;
     display: none;
     position: fixed;
     z-index: 7;
@@ -44,59 +46,60 @@ body {
     top: 32px;
     width: 30px;
     height: 30px;
-    border:none;
+    border: none;
     padding: 0;
 }
-.toggle-menu_wrapper{
+
+.toggle-menu_wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.menu-icon{
+
+.menu-icon {
     position: relative;
     width: 30px;
     height: 5px;
     background-color: rgb(203, 203, 203);
 }
 
-.menu-icon::before{
+.menu-icon::before {
     position: absolute;
-    left:0;
+    left: 0;
     top: -10px;
-    content:"";
+    content: "";
     width: 30px;
     height: 5px;
     background-color: rgb(203, 203, 203);
-    transition: top 0.2s ease-in,top 0.2s linear 0.2s;
+    transition: top 0.2s ease-in, top 0.2s linear 0.2s;
 }
 
-.menu-icon::after{
+.menu-icon::after {
     position: absolute;
-    left:0;
+    left: 0;
     top: 10px;
-    content:"";
+    content: "";
     width: 30px;
     height: 5px;
     background-color: rgb(203, 203, 203);
-    transition: top 0.2s ease-in, top 0.2s linear 0.2s ;
+    transition: top 0.2s ease-in, top 0.2s linear 0.2s;
 }
 
-.menu-icon.menu-icon-active{
-    background-color:transparent !important;
+.menu-icon.menu-icon-active {
+    background-color: transparent !important;
 }
 
-.menu-icon.menu-icon-active::before{
+.menu-icon.menu-icon-active::before {
     transform: rotate(45deg);
     top: 0;
-    transition: top 0.2s linear,transform 0.2s ease-in 0.2s;
+    transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
 }
 
-.menu-icon.menu-icon-active::after{
+.menu-icon.menu-icon-active::after {
     transform: rotate(-45deg);
     top: 0;
-    transition: top 0.2s linear,transform 0.2s ease-in 0.2s;
+    transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
 }
-
 
 
 .header_name {
@@ -244,6 +247,7 @@ body {
     font-size: 25px;
     margin-bottom: 14px;
 }
+
 ul.main-block_list {
     margin-bottom: 32px;
 }
@@ -307,15 +311,19 @@ ul.main-block_list {
 
 }
 
-.icons-list_front {
+.icons-list_front,.icons-list_back {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
     transition: all 1s ease;
 
+}
+.icons-list_front{
+    transform: perspective(600px) rotateY(0deg);
 }
 
 .icons-list_img {
@@ -331,21 +339,12 @@ ul.main-block_list {
     top: -6%;
 }
 
-
-.icons-list_back {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    transition: all .6s ease;
+.icons-list_back{
     box-shadow: 1em 1em 2em rgba(0, 0, 0, .2);
-    transform: rotateY(180deg);
+    transform: perspective(600px) rotateY(180deg);
     background-color: #FFF;
     border-radius: 10px;
     padding: 10px;
-    vertical-align: middle;
 }
 
 .icons-list_back p {
@@ -357,11 +356,12 @@ ul.main-block_list {
 }
 
 .icons-list li:hover .icons-list_front {
-    transform: rotateY(-180deg);
+
+    transform: perspective(600px) rotateY(-180deg);
 }
 
 .icons-list li:hover .icons-list_back {
-    transform: rotate(0);
+    transform: perspective(600px) rotateY(0deg);
 }
 
 /*//////*/
@@ -384,12 +384,12 @@ ul.main-block_list {
     margin: 10px;
     cursor: pointer;
     color: #fff;
-    flex: 1; /* позволяет растягиваться пропорционально нашим слайдам по экрану-всем по равной части*/
+    flex: 1;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    transition: all 500ms ease; /* добавляет плавность всех свойств слайдера*/
+    transition: all 500ms ease;
 }
 
 .foto1 {
@@ -401,15 +401,15 @@ ul.main-block_list {
 }
 
 .foto3 {
-    background-image: url("../img/content/imgMyFoto/cUOsklyhz3Koy_25czuN9aA6HF6e0aGlnvdKS8nq_HFRxSTMc-5CMukUq-CcMUe6a9DWQY7befQc9V_oEoLe8mPx.jpg")
+    background-image: url("../img/content/imgMyFoto/cUOsklyhz3Koy_25czuN9aA6HF6e0aGlnvdKS8nq_HFRxSTMc-5CMukUq-CcMUe6a9DWQY7befQc9V_oEoLe8mPx.jpg");
 }
 
 .foto4 {
-    background-image: url("../img/content/imgMyFoto/Lkartx0MsGB5wEbrWDZslsikNZKPmYGjl19Dwdl9TuXGutO1MSDEzcKX4qN1ZkFAGuKJhTA_od6zQrN61p020lkZ.jpg")
+    background-image: url("../img/content/imgMyFoto/Lkartx0MsGB5wEbrWDZslsikNZKPmYGjl19Dwdl9TuXGutO1MSDEzcKX4qN1ZkFAGuKJhTA_od6zQrN61p020lkZ.jpg");
 }
 
 .foto5 {
-    background-image: url("../img/content/imgMyFoto/TzqPFt9YVcaDH5Pn79mFI38Zka1y6bt9W2UXG7x-5KfFliukJBxYJtqNIGOkZFKcmdIQDz-kq_E7M03z0pLaQc7e.jpg")
+    background-image: url("../img/content/imgMyFoto/TzqPFt9YVcaDH5Pn79mFI38Zka1y6bt9W2UXG7x-5KfFliukJBxYJtqNIGOkZFKcmdIQDz-kq_E7M03z0pLaQc7e.jpg");
 }
 
 .slide h3 {
