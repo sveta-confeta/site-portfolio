@@ -177,8 +177,8 @@ let skillsContent = " <ul class=\"icons-list\">\n" +
     "            </li>\n" +
     "\n" +
     "        </ul>"
-let sliderMyFoto = "  <div class=\"container_title\"> My hobby:</div>" +
-    "<div class=\"container\">\n" +
+let sliderMyFoto = "  <div class=\"sliders-container_title\"> My hobby:</div>" +
+    "<div class=\"sliders-container\">\n" +
     "            <div\n" +
     "                    class=\"slide foto1\"\n" +
     "   \"\n" +
@@ -231,58 +231,58 @@ const workContent = "<div class=\"works-gallery\">\n" +
     "                <button type=\"button\" class=\"next\">next</button>\n" +
     "            </div>\n" +
     "        </div>"
-const mobileHeaderContent=" <header class=\"mobile-header \">\n" +
-    "            <h1 class=\"mobile-header_name\">Shunkova <br/>Svetlana</h1>\n" +
-    "            <h2 class=\"mobile-header_title\"> Frontend-developer</h2>\n" +
-    "            <nav>\n" +
-    "                <ul class=\"header_list\">\n" +
-    "                    <li>\n" +
-    "                        <button class=\"button  active\"  id=\"about\">\n" +
-    "                            <div class=\"bottom\">About me</div>\n" +
-    "                            <div class=\"top\">\n" +
-    "                                <div class=\"button-border button-border-left\"></div>\n" +
-    "                                <div class=\"button-border button-border-top\"></div>\n" +
-    "                                <div class=\"button-border button-border-right\"></div>\n" +
-    "                                <div class=\"button-border button-border-bottom\"></div>\n" +
-    "                            </div>\n" +
-    "                        </button>\n" +
-    "                    </li>\n" +
-    "                    <li>\n" +
-    "                        <button class=\"button skills\" id=\"skills\">\n" +
-    "                            <div class=\"bottom\">Мy skills</div>\n" +
-    "                            <div class=\"top\">\n" +
-    "                                <div class=\"button-border button-border-left\"></div>\n" +
-    "                                <div class=\"button-border button-border-top\"></div>\n" +
-    "                                <div class=\"button-border button-border-right\"></div>\n" +
-    "                                <div class=\"button-border button-border-bottom\"></div>\n" +
-    "                            </div>\n" +
-    "                        </button>\n" +
-    "                    </li>\n" +
-    "                    <li>\n" +
-    "                        <button class=\"button works\" id=\"works\">\n" +
-    "                            <div class=\"bottom\">Мy projects</div>\n" +
-    "                            <div class=\"top\">\n" +
-    "                                <div class=\"button-border button-border-left\"></div>\n" +
-    "                                <div class=\"button-border button-border-top\"></div>\n" +
-    "                                <div class=\"button-border button-border-right\"></div>\n" +
-    "                                <div class=\"button-border button-border-bottom\"></div>\n" +
-    "                            </div>\n" +
-    "                        </button>\n" +
-    "                    </li>\n" +
-    "                    <li>\n" +
-    "                        <button class=\"button hobby\" id=\"hobby\">\n" +
-    "                            <div class=\"bottom\">Мy hobby</div>\n" +
-    "                            <div class=\"top\">\n" +
-    "                                <div class=\"button-border button-border-left\"></div>\n" +
-    "                                <div class=\"button-border button-border-top\"></div>\n" +
-    "                                <div class=\"button-border button-border-right\"></div>\n" +
-    "                                <div class=\"button-border button-border-bottom\"></div>\n" +
-    "                            </div>\n" +
-    "                        </button>\n" +
-    "                    </li>\n" +
-    "                </ul>\n" +
-    "            </nav>\n" +
-    "        </header>";
+// const mobileHeaderContent=" <header class=\"mobile-header \">\n" +
+//     "            <h1 class=\"mobile-header_name\">Shunkova <br/>Svetlana</h1>\n" +
+//     "            <h2 class=\"mobile-header_title\"> Frontend-developer</h2>\n" +
+//     "            <nav>\n" +
+//     "                <ul class=\"header_list\">\n" +
+//     "                    <li>\n" +
+//     "                        <button class=\"button  active\"  id=\"about\">\n" +
+//     "                            <div class=\"bottom\">About me</div>\n" +
+//     "                            <div class=\"top\">\n" +
+//     "                                <div class=\"button-border button-border-left\"></div>\n" +
+//     "                                <div class=\"button-border button-border-top\"></div>\n" +
+//     "                                <div class=\"button-border button-border-right\"></div>\n" +
+//     "                                <div class=\"button-border button-border-bottom\"></div>\n" +
+//     "                            </div>\n" +
+//     "                        </button>\n" +
+//     "                    </li>\n" +
+//     "                    <li>\n" +
+//     "                        <button class=\"button skills\" id=\"skills\">\n" +
+//     "                            <div class=\"bottom\">Мy skills</div>\n" +
+//     "                            <div class=\"top\">\n" +
+//     "                                <div class=\"button-border button-border-left\"></div>\n" +
+//     "                                <div class=\"button-border button-border-top\"></div>\n" +
+//     "                                <div class=\"button-border button-border-right\"></div>\n" +
+//     "                                <div class=\"button-border button-border-bottom\"></div>\n" +
+//     "                            </div>\n" +
+//     "                        </button>\n" +
+//     "                    </li>\n" +
+//     "                    <li>\n" +
+//     "                        <button class=\"button works\" id=\"works\">\n" +
+//     "                            <div class=\"bottom\">Мy projects</div>\n" +
+//     "                            <div class=\"top\">\n" +
+//     "                                <div class=\"button-border button-border-left\"></div>\n" +
+//     "                                <div class=\"button-border button-border-top\"></div>\n" +
+//     "                                <div class=\"button-border button-border-right\"></div>\n" +
+//     "                                <div class=\"button-border button-border-bottom\"></div>\n" +
+//     "                            </div>\n" +
+//     "                        </button>\n" +
+//     "                    </li>\n" +
+//     "                    <li>\n" +
+//     "                        <button class=\"button hobby\" id=\"hobby\">\n" +
+//     "                            <div class=\"bottom\">Мy hobby</div>\n" +
+//     "                            <div class=\"top\">\n" +
+//     "                                <div class=\"button-border button-border-left\"></div>\n" +
+//     "                                <div class=\"button-border button-border-top\"></div>\n" +
+//     "                                <div class=\"button-border button-border-right\"></div>\n" +
+//     "                                <div class=\"button-border button-border-bottom\"></div>\n" +
+//     "                            </div>\n" +
+//     "                        </button>\n" +
+//     "                    </li>\n" +
+//     "                </ul>\n" +
+//     "            </nav>\n" +
+//     "        </header>";
 let addSliderListner = () => {
     const slides = document.querySelectorAll('.slide');
     for (const slide of slides) {
