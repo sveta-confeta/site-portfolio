@@ -260,11 +260,12 @@ function WorkSlider() {
         if (n < 1) {
             ind = ++ind;
         } else if (n > images.length) {
-            ind = 0
+            ind = 1
 
         }
 
         for (let i = 0; i < images.length; i++) {
+
             images[i].classList.remove('active')
         }
         images[ind - 1].classList.add('active')
@@ -275,6 +276,7 @@ function WorkSlider() {
     }
 
     btnNext.addEventListener('click', () => {
+        console.log(ind)
         btnPrev.classList.remove('disabled')
         plusSlide(1)
     })
